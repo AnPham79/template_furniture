@@ -9,7 +9,6 @@
 body {
     font-family: sans-serif;
 }
-
 /* ================================= header ============================================================ */
 .menu-right {
     display: flex;
@@ -536,4 +535,52 @@ body {
     }
 }
 
+/* ====================================================== cart ================================ */
+.img-incart img {
+    width: 100px;
+    height: 100px;
+}
+
+.name-prd-incart {
+    transform: translateY(50%);
+}
+
+.action-quantity {
+    transform: translateY(50%);
+}
+
+.quantity-incart i {
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.quantity-incart .fa-minus {
+    background-color: gray;
+}
+
+.quantity-incart .fa-minus:hover {
+    background-color: var(--private-color-0);
+    transition: 0.5s;
+}
+
+.quantity-incart .fa-plus {
+    background-color:#495057;
+}
+
+.quantity-incart .fa-plus:hover {
+    background-color: var(--private-color-0);
+    transition: 0.5s;
+}
+
+.del-product-incart i {
+    color: gray;
+    font-size: 20px;
+}
+
+.del-product-incart i:hover {
+    color: var(--private-color-0);
+    transition: 0.5s;
+}
 
